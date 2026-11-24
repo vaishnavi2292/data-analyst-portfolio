@@ -540,6 +540,18 @@ display:none;
 }
 
 }
+
+/* Certifications */
+.cert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:30px}
+.cert-card{padding:28px;border-radius:24px;background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.08);backdrop-filter:blur(14px);display:flex;flex-direction:column;gap:10px;transition:.3s}
+.cert-card:hover{transform:translateY(-6px);border-color:rgba(0,255,200,0.35)}
+.cert-badge{font-size:0.75rem;letter-spacing:.08em;text-transform:uppercase;color:#00ffd0;font-weight:600}
+.cert-card h3{font-size:1.15rem;line-height:1.35}
+.cert-card p{color:#b8c0d0;font-size:0.9rem;line-height:1.5}
+.cert-links{display:flex;flex-wrap:wrap;gap:10px;margin-top:auto;padding-top:12px}
+.cert-links a{padding:9px 16px;border-radius:999px;font-size:0.85rem;font-weight:600;text-decoration:none;color:white;background:rgba(255,255,255,0.08);border:1px solid rgba(255,255,255,0.12);transition:.25s}
+.cert-links a:hover{background:linear-gradient(90deg,#00ffd0,#0077ff);color:#0b0f19;border-color:transparent}
+@media(max-width:900px){.cert-grid{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -557,6 +569,7 @@ display:none;
 <a href="#experience">Experience</a>
 <a href="#skills">Skills</a>
 <a href="#projects">Projects</a>
+<a href="#certifications">Certifications</a>
 <a href="#contact">Contact</a>
 </div>
 </nav>
@@ -820,6 +833,41 @@ into a structured source of truth.
 <div class="metric">50% Better Accuracy</div><br>
 <div class="metric">OCR + Regex</div>
 <div class="metric">ETL + RCA</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="certifications">
+<div class="container reveal">
+<h2 class="section-title">Certifications</h2>
+<div class="cert-grid">
+<div class="cert-card">
+<span class="cert-badge">IBM · December 8, 2024</span>
+<h3>DevOps Fundamentals</h3>
+<p>IBMCEP · Course code CEDEV1IN<br>Issued by StarAgile, powered by IBM Developer Skills Network.</p>
+<div class="cert-links">
+<a href="certificates/Devops_Fundamental_Certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+<a href="https://courses.staragile.skillsnetwork.site/certificates/f2b94f061f2d4731adf8b570b99537ee" target="_blank" rel="noopener noreferrer">Verify</a>
+</div>
+</div>
+<div class="cert-card">
+<span class="cert-badge">IBM · December 8, 2024</span>
+<h3>Docker Essentials: A Developer Introduction</h3>
+<p>IBM · Course code CO0101EN<br>Issued by StarAgile, powered by IBM Developer Skills Network.</p>
+<div class="cert-links">
+<a href="certificates/Docker_Essentials_Certificate.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+<a href="https://courses.staragile.skillsnetwork.site/certificates/b3006910a1644d6bb3948bb723cfb60e" target="_blank" rel="noopener noreferrer">Verify</a>
+</div>
+</div>
+<div class="cert-card">
+<span class="cert-badge">IBM · December 9, 2024</span>
+<h3>Scalable Web Applications on Kubernetes</h3>
+<p>IBM · Course code CO0101EN<br>Issued by StarAgile, powered by IBM Developer Skills Network.</p>
+<div class="cert-links">
+<a href="certificates/Scalable_Web_Applications_on_Kubernetes.pdf" target="_blank" rel="noopener noreferrer">View Certificate</a>
+<a href="https://courses.staragile.skillsnetwork.site/certificates/947804af9c3743f5bdf70d765ebacb76" target="_blank" rel="noopener noreferrer">Verify</a>
 </div>
 </div>
 </div>
